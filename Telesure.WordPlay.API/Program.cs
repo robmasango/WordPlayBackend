@@ -41,7 +41,6 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepositor
 builder.Services.AddScoped<IWordTypesRepository, WordTypesRepository>();
 builder.Services.AddScoped<IWordsRepository, WordsRepository>();
 builder.Services.AddScoped<ISentencesRepository, SentencesRepository>();
-builder.Services.AddScoped<IEmployeesRepository, EmployeesRepository>();
 
 
 builder.Services.AddResponseCaching(options =>

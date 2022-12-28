@@ -3,7 +3,6 @@ using Telesure.WordPlay.Data;
 using Telesure.WordPlay.Core.Models.WordType;
 using Telesure.WordPlay.Core.Models.Word;
 using Telesure.WordPlay.Core.Models.Sentence;
-using Telesure.WordPlay.Core.Models.Employee;
 
 namespace Telesure.WordPlay.Core.Configurations
 {
@@ -25,12 +24,6 @@ namespace Telesure.WordPlay.Core.Configurations
             CreateMap<Sentence, GetSentenceDto>().ReverseMap();
             CreateMap<Sentence, SentenceDto>().ReverseMap();
             CreateMap<Sentence, UpdateSentenceDto>().ReverseMap();
-
-
-            CreateMap<Employee, CreateEmployeeDto>().ReverseMap();
-            CreateMap<Employee, GetEmployeeDto>().ReverseMap();
-            CreateMap<Employee, EmployeeDto>().ReverseMap();
-            CreateMap<Employee, UpdateEmployeeDto>().ReverseMap();
         }
     }
 }

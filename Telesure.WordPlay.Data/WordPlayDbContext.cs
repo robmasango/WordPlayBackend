@@ -14,7 +14,6 @@ namespace Telesure.WordPlay.Data
         public DbSet<Word> Words { get; set; }
         public DbSet<WordType> WordTypes { get; set; }
         public DbSet<Sentence> Sentences { get; set; }
-        public DbSet<Employee> Employees { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
